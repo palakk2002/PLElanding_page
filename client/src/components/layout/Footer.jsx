@@ -63,7 +63,7 @@ export default function Footer() {
           <path
             d="M0,60 C400,130 600,10 1000,30 C1200,45 1350,65 1440,50"
             fill="none"
-            stroke="#FF6B00"
+            stroke="#D71920"
             strokeWidth="6"
             filter="url(#orange-glow-filter)"
             className="opacity-35 dark:opacity-55 transition-opacity duration-300"
@@ -73,7 +73,7 @@ export default function Footer() {
           <path
             d="M0,60 C400,130 600,10 1000,30 C1200,45 1350,65 1440,50"
             fill="none"
-            stroke="#FF6B00"
+            stroke="#D71920"
             strokeWidth="1.5"
             className="opacity-25 dark:opacity-45 transition-opacity duration-300"
           />
@@ -223,7 +223,7 @@ export default function Footer() {
               <div className="pt-1 pb-0.5">
                 <Link
                   to="/get-quote"
-                  className="relative inline-flex items-center justify-center gap-2 w-full px-4 py-2 bg-primary hover:bg-primary-hover text-black font-extrabold text-xs rounded-xl shadow-md hover:shadow-[0_0_15px_rgba(255,107,0,0.4)] group transition-all duration-300 cursor-pointer overflow-hidden"
+                  className="relative inline-flex items-center justify-center gap-2 w-full px-4 py-2 bg-primary hover:bg-primary-hover text-black font-extrabold text-xs rounded-xl shadow-md hover:shadow-[0_0_15px_rgba(215,25,32,0.4)] group transition-all duration-300 cursor-pointer overflow-hidden"
                 >
                   <span className="absolute inset-0 bg-white/10 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-out" />
                   <span>Get in Touch</span>
@@ -275,7 +275,7 @@ export default function Footer() {
                 />
                 <button
                   type="submit"
-                  className="absolute right-1 bg-primary hover:bg-primary-hover text-black font-extrabold text-xs px-5 py-1.5 rounded-full transition-all duration-300 shadow-md cursor-pointer hover:shadow-[0_0_15px_rgba(255,107,0,0.4)]"
+                  className="absolute right-1 bg-primary hover:bg-primary-hover text-black font-extrabold text-xs px-5 py-1.5 rounded-full transition-all duration-300 shadow-md cursor-pointer hover:shadow-[0_0_15px_rgba(215,25,32,0.4)]"
                 >
                   Submit
                 </button>
@@ -304,7 +304,7 @@ export default function Footer() {
               {/* Beautiful Rounded Scroll-to-Top Card */}
               <button
                 onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-                className="w-10 h-10 rounded-2xl bg-app-bg dark:bg-app-card border border-app-border hover:border-primary/40 text-app-text hover:text-primary transition-all duration-300 flex items-center justify-center cursor-pointer shadow-md hover:shadow-[0_0_15px_rgba(255,107,0,0.25)] group relative overflow-hidden"
+                className="w-10 h-10 rounded-2xl bg-app-bg dark:bg-app-card border border-app-border hover:border-primary/40 text-app-text hover:text-primary transition-all duration-300 flex items-center justify-center cursor-pointer shadow-md hover:shadow-[0_0_15px_rgba(215,25,32,0.25)] group relative overflow-hidden"
                 aria-label="Scroll to top"
               >
                 <ArrowUpRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />

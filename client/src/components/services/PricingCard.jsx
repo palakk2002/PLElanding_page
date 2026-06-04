@@ -46,8 +46,8 @@ export default function PricingCard({ plan }) {
       transition={{ duration: 0.5, ease: "easeOut" }}
       className={`relative rounded-[2.25rem] border-[1.5px] overflow-hidden flex flex-col justify-between h-full group transition-all duration-500
         ${highlight 
-          ? 'border-primary bg-white dark:bg-app-card shadow-[0_0_30px_rgba(255,90,31,0.15)] dark:shadow-[0_0_30px_rgba(255,90,31,0.25)]' 
-          : 'border-slate-100 dark:border-white/10 bg-white dark:bg-app-card hover:border-primary hover:shadow-[0_0_30px_rgba(255,90,31,0.2)] shadow-sm dark:shadow-lg'
+          ? 'border-primary bg-white dark:bg-app-card shadow-[0_0_30px_rgba(215,25,32,0.15)] dark:shadow-[0_0_30px_rgba(215,25,32,0.25)]' 
+          : 'border-slate-100 dark:border-white/10 bg-white dark:bg-app-card hover:border-primary hover:shadow-[0_0_30px_rgba(215,25,32,0.2)] shadow-sm dark:shadow-lg'
         }`}
     >
       {/* Floating best choice badge if highlighted */}
@@ -113,7 +113,7 @@ export default function PricingCard({ plan }) {
         
         <Link
           to="/get-quote"
-          className="px-5 py-3 rounded-xl flex items-center justify-center gap-2 font-black text-[10px] uppercase tracking-wider bg-primary text-black hover:bg-black hover:text-primary dark:hover:bg-white dark:hover:text-black transition-all duration-300 shadow-[0_4px_12px_rgba(232,71,10,0.15)] hover:shadow-[0_6px_20px_rgba(232,71,10,0.35)] hover:-translate-y-0.5 active:translate-y-0"
+          className="px-5 py-3 rounded-xl flex items-center justify-center gap-2 font-black text-[10px] uppercase tracking-wider bg-primary text-black hover:bg-black hover:text-primary dark:hover:bg-white dark:hover:text-black transition-all duration-300 shadow-[0_4px_12px_rgba(215,25,32,0.15)] hover:shadow-[0_6px_20px_rgba(215,25,32,0.35)] hover:-translate-y-0.5 active:translate-y-0"
         >
           <span>Get Started</span>
           <ArrowRight className="w-3 h-3 stroke-[3]" />

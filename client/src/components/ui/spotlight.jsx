@@ -4,7 +4,7 @@ import { useTheme } from "@/context/ThemeContext";
 
 export const Spotlight = ({ className, fill }) => {
   const { theme } = useTheme();
-  const defaultFill = theme === "dark" ? "white" : "#FF6B00";
+  const defaultFill = theme === "dark" ? "white" : "#D71920";
   const finalFill = fill || defaultFill;
   const fillOpacity = theme === "dark" ? "0.21" : "0.15";
 

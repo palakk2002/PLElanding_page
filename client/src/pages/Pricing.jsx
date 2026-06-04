@@ -266,7 +266,7 @@ export default function Pricing() {
               onClick={() => setActiveCategory(category.id)}
               className={`px-4 sm:px-5 py-2 rounded-full text-[11px] sm:text-xs font-bold tracking-wider transition-all duration-300 cursor-pointer whitespace-nowrap shrink-0 snap-center ${
                 activeCategory === category.id
-                  ? 'bg-primary text-black shadow-[0_0_20px_rgba(232,71,10,0.4)]'
+                  ? 'bg-primary text-black shadow-[0_0_20px_rgba(215,25,32,0.4)]'
                   : 'text-app-text-muted hover:text-app-text hover:bg-white/5'
               }`}
             >
@@ -315,13 +315,13 @@ export default function Pricing() {
               </filter>
               <linearGradient id="gradient-glow" x1="0%" y1="50%" x2="100%" y2="50%">
                 <stop offset="0%" stopColor="#ffffff" stopOpacity="0.5" />
-                <stop offset="30%" stopColor="#E8470A" stopOpacity="0.4" />
+                <stop offset="30%" stopColor="#D71920" stopOpacity="0.4" />
                 <stop offset="70%" stopColor="#3b82f6" stopOpacity="0.2" />
                 <stop offset="100%" stopColor="#000000" stopOpacity="0" />
               </linearGradient>
               <linearGradient id="gradient-glow-2" x1="0%" y1="0%" x2="100%" y2="100%">
                 <stop offset="0%" stopColor="#ffffff" stopOpacity="0.6" />
-                <stop offset="50%" stopColor="#E8470A" stopOpacity="0.3" />
+                <stop offset="50%" stopColor="#D71920" stopOpacity="0.3" />
                 <stop offset="100%" stopColor="#000000" stopOpacity="0" />
               </linearGradient>
             </defs>
@@ -374,7 +374,7 @@ export default function Pricing() {
             <div className="pt-1">
               <Link
                 to="/get-quote"
-                className="inline-flex items-center gap-3 px-8 py-3.5 rounded-full bg-black dark:bg-[#E8470A] hover:bg-gray-800 dark:hover:bg-[#D63D08] text-white font-extrabold text-xs uppercase tracking-widest transition-all duration-300 shadow-[0_12px_30px_rgba(0,0,0,0.35)] dark:shadow-[0_12px_30px_rgba(232,71,10,0.35)] hover:-translate-y-1 active:translate-y-0"
+                className="inline-flex items-center gap-3 px-8 py-3.5 rounded-full bg-black dark:bg-[#D71920] hover:bg-gray-800 dark:hover:bg-[#B51218] text-white font-extrabold text-xs uppercase tracking-widest transition-all duration-300 shadow-[0_12px_30px_rgba(0,0,0,0.35)] dark:shadow-[0_12px_30px_rgba(215,25,32,0.35)] hover:-translate-y-1 active:translate-y-0"
               >
                 <span>Request Custom Estimate</span>
                 <svg className="w-4 h-4 stroke-[3]" fill="none" viewBox="0 0 24 24" stroke="currentColor">

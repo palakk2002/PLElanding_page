@@ -22,11 +22,11 @@ const MinimalComparisonTable = () => {
         <div className="overflow-x-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
           <table className="w-full border-collapse min-w-[450px]">
             <thead>
-              <tr className="border-b border-[#E8470A]">
+              <tr className="border-b border-[#D71920]">
                 <th className="py-2 px-3 text-left text-[10px] md:text-xs font-black text-white uppercase tracking-widest">
                   Feature
                 </th>
-                <th className="py-2 px-3 text-center text-[10px] md:text-xs font-black text-[#E8470A] bg-[#1A1A2E] uppercase tracking-widest border-x border-[#E8470A]">
+                <th className="py-2 px-3 text-center text-[10px] md:text-xs font-black text-[#D71920] bg-[#1A1A2E] uppercase tracking-widest border-x border-[#D71920]">
                   PLE
                 </th>
                 <th className="py-2 px-3 text-center text-[10px] md:text-xs font-black text-[#666666] uppercase tracking-widest">
@@ -39,14 +39,14 @@ const MinimalComparisonTable = () => {
                 <tr 
                   key={index} 
                   className={cn(
-                    "border-b border-[#E8470A]/40 transition-colors hover:bg-white/5",
-                    index === comparisonData.length - 1 && "border-b-[#E8470A]"
+                    "border-b border-[#D71920]/40 transition-colors hover:bg-white/5",
+                    index === comparisonData.length - 1 && "border-b-[#D71920]"
                   )}
                 >
                   <td className="py-2 px-3 text-xs md:text-sm font-bold text-white/90">
                     {row.feature}
                   </td>
-                  <td className="py-2 px-3 text-center text-xs md:text-sm font-black text-[#E8470A] bg-[#1A1A2E] border-x border-[#E8470A]/40">
+                  <td className="py-2 px-3 text-center text-xs md:text-sm font-black text-[#D71920] bg-[#1A1A2E] border-x border-[#D71920]/40">
                     {row.vedhunt}
                   </td>
                   <td className="py-2 px-3 text-center text-xs md:text-sm font-medium text-[#666666]">

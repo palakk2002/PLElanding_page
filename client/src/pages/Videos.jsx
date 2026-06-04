@@ -85,8 +85,8 @@ const Videos = () => {
   return (
     <div className="min-h-screen bg-[#131313] text-white overflow-hidden">
       {/* Floating Glow Effects */}
-      <div className="absolute top-0 left-1/4 w-96 h-96 bg-[#FF6B00]/10 rounded-full filter blur-3xl opacity-50 -z-10 animate-pulse" />
-      <div className="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] bg-[#FF6B00]/5 rounded-full filter blur-3xl opacity-30 -z-10" />
+      <div className="absolute top-0 left-1/4 w-96 h-96 bg-[#D71920]/10 rounded-full filter blur-3xl opacity-50 -z-10 animate-pulse" />
+      <div className="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] bg-[#D71920]/5 rounded-full filter blur-3xl opacity-30 -z-10" />
 
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 px-6">
@@ -95,7 +95,7 @@ const Videos = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="text-[#FF6B00] text-sm font-black tracking-widest uppercase mb-4 block"
+            className="text-[#D71920] text-sm font-black tracking-widest uppercase mb-4 block"
           >
             Video Showcase
           </motion.span>
@@ -105,7 +105,7 @@ const Videos = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-3xl md:text-4xl font-bold mb-6 tracking-tighter"
           >
-            Client Success <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6B00] to-[#FF8A00]">In Motion</span>
+            Client Success <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#D71920] to-[#F04444]">In Motion</span>
           </motion.h1>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -120,7 +120,7 @@ const Videos = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
           >
-            <button className="bg-[#FF6B00] text-white px-8 py-4 rounded-full font-bold hover:bg-[#FF8A00] transition-all duration-300 flex items-center gap-2 mx-auto group shadow-lg shadow-[#FF6B00]/20">
+            <button className="bg-[#D71920] text-white px-8 py-4 rounded-full font-bold hover:bg-[#F04444] transition-all duration-300 flex items-center gap-2 mx-auto group shadow-lg shadow-[#D71920]/20">
               Schedule a Call <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
             </button>
           </motion.div>
@@ -143,14 +143,14 @@ const Videos = () => {
                   allowFullScreen
                 ></iframe>
                 {/* Glow overlay on player */}
-                <div className="absolute inset-0 border border-[#FF6B00]/20 pointer-events-none rounded-2xl group-hover:border-[#FF6B00]/40 transition-colors duration-500" />
+                <div className="absolute inset-0 border border-[#D71920]/20 pointer-events-none rounded-2xl group-hover:border-[#D71920]/40 transition-colors duration-500" />
               </div>
             </div>
 
             {/* Video Info */}
             <div className="w-full lg:w-1/3 space-y-6">
               <div className="flex items-center gap-3">
-                <span className="px-3 py-1 bg-[#FF6B00]/10 border border-[#FF6B00]/20 text-[#FF6B00] text-xs font-bold rounded-full">
+                <span className="px-3 py-1 bg-[#D71920]/10 border border-[#D71920]/20 text-[#D71920] text-xs font-bold rounded-full">
                   Featured Case Study
                 </span>
                 <span className="flex items-center gap-1 text-white/40 text-xs font-bold">
@@ -183,7 +183,7 @@ const Videos = () => {
                   href={`https://youtube.com/watch?v=${featuredVideo.youtubeId}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-[#FF6B00] font-bold hover:text-[#FF8A00] transition-colors group"
+                  className="inline-flex items-center gap-2 text-[#D71920] font-bold hover:text-[#F04444] transition-colors group"
                 >
                   Watch on YouTube <ExternalLink size={16} className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
                 </a>
@@ -218,7 +218,7 @@ const Videos = () => {
                   {selectedCategory === category && (
                     <motion.div 
                       layoutId="activeTab"
-                      className="absolute inset-0 bg-[#FF6B00] rounded-full -z-10"
+                      className="absolute inset-0 bg-[#D71920] rounded-full -z-10"
                       transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
                     />
                   )}
@@ -239,7 +239,7 @@ const Videos = () => {
                   animate={{ opacity: 1, scale: 1 }}
                   exit={{ opacity: 0, scale: 0.9 }}
                   transition={{ duration: 0.4 }}
-                  className="group relative bg-app-card rounded-2xl overflow-hidden border border-white/5 hover:border-[#FF6B00]/20 transition-all duration-500 flex flex-col h-full"
+                  className="group relative bg-app-card rounded-2xl overflow-hidden border border-white/5 hover:border-[#D71920]/20 transition-all duration-500 flex flex-col h-full"
                 >
                   {/* Thumbnail */}
                   <div className="relative aspect-video overflow-hidden bg-black">
@@ -254,7 +254,7 @@ const Videos = () => {
                     
                     {/* Play Icon */}
                     <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="w-12 h-12 rounded-full bg-[#FF6B00] flex items-center justify-center shadow-lg transform group-hover:scale-110 transition-transform duration-300">
+                      <div className="w-12 h-12 rounded-full bg-[#D71920] flex items-center justify-center shadow-lg transform group-hover:scale-110 transition-transform duration-300">
                         <Play size={20} className="text-white ml-0.5" />
                       </div>
                     </div>
@@ -272,7 +272,7 @@ const Videos = () => {
 
                   {/* Content */}
                   <div className="p-6 flex flex-col flex-grow space-y-3">
-                    <h3 className="text-base font-bold group-hover:text-[#FF6B00] transition-colors duration-300">
+                    <h3 className="text-base font-bold group-hover:text-[#D71920] transition-colors duration-300">
                       {video.title}
                     </h3>
                     
@@ -286,7 +286,7 @@ const Videos = () => {
                           setFeaturedVideo(video);
                           window.scrollTo({ top: 0, behavior: 'smooth' });
                         }}
-                        className="text-xs font-bold text-white/40 hover:text-[#FF6B00] transition-colors flex items-center gap-1"
+                        className="text-xs font-bold text-white/40 hover:text-[#D71920] transition-colors flex items-center gap-1"
                       >
                         Load in Player <ArrowRight size={14} />
                       </button>
@@ -295,7 +295,7 @@ const Videos = () => {
                         href={`https://youtube.com/watch?v=${video.youtubeId}`}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-white/40 hover:text-[#FF6B00] transition-colors"
+                        className="text-white/40 hover:text-[#D71920] transition-colors"
                       >
                         <ExternalLink size={16} />
                       </a>
@@ -303,7 +303,7 @@ const Videos = () => {
                   </div>
 
                   {/* Hover Border Glow */}
-                  <div className="absolute inset-0 border border-transparent group-hover:border-[#FF6B00]/10 pointer-events-none rounded-2xl transition-colors duration-500" />
+                  <div className="absolute inset-0 border border-transparent group-hover:border-[#D71920]/10 pointer-events-none rounded-2xl transition-colors duration-500" />
                 </motion.div>
               ))}
             </AnimatePresence>
@@ -315,7 +315,7 @@ const Videos = () => {
       <section className="py-20 px-6 bg-[#0A0A0A]/30">
         <div className="max-w-6xl mx-auto">
           <div className="flex items-center gap-4 mb-8">
-            <Award className="text-[#FF6B00]" size={28} />
+            <Award className="text-[#D71920]" size={28} />
             <h2 className="text-3xl font-bold">Premium Breakdowns</h2>
           </div>
 
@@ -323,13 +323,13 @@ const Videos = () => {
             {VIDEOS_DATA.filter(v => v.category === 'SEO' || v.category === 'Marketing').map((video) => (
               <div 
                 key={`premium-${video.id}`}
-                className="min-w-[300px] md:min-w-[400px] bg-app-card rounded-xl overflow-hidden border border-white/5 hover:border-[#FF6B00]/20 transition-all duration-300"
+                className="min-w-[300px] md:min-w-[400px] bg-app-card rounded-xl overflow-hidden border border-white/5 hover:border-[#D71920]/20 transition-all duration-300"
               >
                 <div className="relative aspect-[16/9]">
                   <img src={video.thumbnail} alt={video.title} className="w-full h-full object-cover" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent" />
                   <div className="absolute bottom-4 left-4 right-4">
-                    <span className="text-[#FF6B00] text-xs font-bold uppercase mb-1 block">{video.category}</span>
+                    <span className="text-[#D71920] text-xs font-bold uppercase mb-1 block">{video.category}</span>
                     <h3 className="text-base font-bold text-white">{video.title}</h3>
                   </div>
                 </div>

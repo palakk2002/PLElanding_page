@@ -362,7 +362,7 @@ export default function ServiceDetails() {
                     <motion.div variants={fadeUp} className="pt-4 flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4 w-full sm:w-auto">
                       <Link
                         to="/get-quote"
-                        className="w-full sm:w-auto text-center px-6 py-3.5 sm:py-2.5 bg-primary hover:bg-primary-hover text-black font-black text-[11px] sm:text-xs uppercase tracking-wider rounded-xl hover:shadow-[0_0_25px_rgba(232,71,10,0.4)] transition-all duration-300 transform hover:-translate-y-0.5 cursor-pointer"
+                        className="w-full sm:w-auto text-center px-6 py-3.5 sm:py-2.5 bg-primary hover:bg-primary-hover text-black font-black text-[11px] sm:text-xs uppercase tracking-wider rounded-xl hover:shadow-[0_0_25px_rgba(215,25,32,0.4)] transition-all duration-300 transform hover:-translate-y-0.5 cursor-pointer"
                       >
                         Get Free Quote
                       </Link>
@@ -387,13 +387,13 @@ export default function ServiceDetails() {
                           {/* Inner glowing circle */}
                           <div className="absolute w-36 h-36 rounded-full border border-primary/10 bg-app-bg flex items-center justify-center shadow-lg">
                             {serviceMain.icon && (
-                              <serviceMain.icon className="w-16 h-16 text-primary drop-shadow-[0_0_15px_rgba(232,71,10,0.35)] animate-float" />
+                              <serviceMain.icon className="w-16 h-16 text-primary drop-shadow-[0_0_15px_rgba(215,25,32,0.35)] animate-float" />
                             )}
                           </div>
 
                           {/* Outer orbit lines & nodes */}
                           <div className="absolute w-48 h-48 rounded-full border-t border-primary/30 animate-spin" style={{ animationDuration: '10s' }} />
-                          <div className="absolute w-2.5 h-2.5 rounded-full bg-primary top-0 left-1/2 -translate-x-1/2 shadow-[0_0_10px_#E8470A]" />
+                          <div className="absolute w-2.5 h-2.5 rounded-full bg-primary top-0 left-1/2 -translate-x-1/2 shadow-[0_0_10px_#D71920]" />
                           <div className="absolute w-2 h-2 rounded-full bg-primary/50 bottom-4 right-8" />
                         </div>
                       </div>
@@ -656,7 +656,7 @@ export default function ServiceDetails() {
                         whileHover={{ y: -8, scale: 1.02 }}
                         className={`group relative rounded-[2.25rem] bg-app-card flex flex-col justify-between p-5 md:p-6 pb-4 md:pb-5 text-center shadow-2xl transition-all duration-300 cursor-default ${
                           plan.highlight 
-                            ? 'border border-primary/50 ring-1 ring-primary/20 shadow-[0_15px_35px_rgba(232,71,10,0.15)]' 
+                            ? 'border border-primary/50 ring-1 ring-primary/20 shadow-[0_15px_35px_rgba(215,25,32,0.15)]' 
                             : 'border border-app-border shadow-sm'
                         }`}
                       >
@@ -677,7 +677,7 @@ export default function ServiceDetails() {
                               </filter>
                               <linearGradient id="gradient-glow-card" x1="0%" y1="0%" x2="100%" y2="100%">
                                 <stop offset="0%" stopColor="#ffffff" stopOpacity="0.4" />
-                                <stop offset="50%" stopColor="#E8470A" stopOpacity="0.3" />
+                                <stop offset="50%" stopColor="#D71920" stopOpacity="0.3" />
                                 <stop offset="100%" stopColor="#3b82f6" stopOpacity="0.1" />
                               </linearGradient>
                             </defs>
@@ -737,7 +737,7 @@ export default function ServiceDetails() {
                         <div className="pt-2 mt-auto relative z-10">
                           <Link
                             to="/get-quote"
-                            className="inline-flex items-center justify-center gap-2 w-full py-2.5 rounded-full bg-[#E8470A] hover:bg-[#D63D08] text-white font-extrabold text-[10px] uppercase tracking-widest transition-all duration-300 shadow-[0_6px_15px_rgba(232,71,10,0.25)] hover:shadow-[0_10px_22px_rgba(232,71,10,0.4)] hover:-translate-y-0.5 active:translate-y-0 cursor-pointer"
+                            className="inline-flex items-center justify-center gap-2 w-full py-2.5 rounded-full bg-[#D71920] hover:bg-[#B51218] text-white font-extrabold text-[10px] uppercase tracking-widest transition-all duration-300 shadow-[0_6px_15px_rgba(215,25,32,0.25)] hover:shadow-[0_10px_22px_rgba(215,25,32,0.4)] hover:-translate-y-0.5 active:translate-y-0 cursor-pointer"
                           >
                             <span>Get Started</span>
                             <ArrowRight className="w-3.5 h-3.5 stroke-[3]" />
@@ -991,7 +991,7 @@ export default function ServiceDetails() {
                             }
                           }}
                         >
-                          <Star className="w-3.5 h-3.5 fill-primary text-primary drop-shadow-[0_0_4px_rgba(232,71,10,0.3)]" />
+                          <Star className="w-3.5 h-3.5 fill-primary text-primary drop-shadow-[0_0_4px_rgba(215,25,32,0.3)]" />
                         </motion.div>
                       ))}
                     </motion.div>

@@ -98,7 +98,7 @@ export default function StatsCounter() {
                 <div className="absolute inset-0 border border-slate-200 dark:border-app-border rounded-xl sm:rounded-2xl pointer-events-none" />
 
                 {/* Icon Box */}
-                <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-lg sm:rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary group-hover:scale-110 group-hover:bg-primary group-hover:text-black transition-all duration-300 shrink-0 shadow-[0_0_15px_rgba(255,107,0,0.15)] relative z-10">
+                <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-lg sm:rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary group-hover:scale-110 group-hover:bg-primary group-hover:text-black transition-all duration-300 shrink-0 shadow-[0_0_15px_rgba(215,25,32,0.15)] relative z-10">
                   <IconComponent className="w-4 h-4 sm:w-5 sm:h-5" />
                 </div>
 

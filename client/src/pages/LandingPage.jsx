@@ -327,7 +327,7 @@ export default function LandingPage() {
 
               <button 
                 type="submit"
-                className="w-full py-3 bg-primary hover:bg-primary-hover text-black font-extrabold text-xs uppercase tracking-widest rounded-full transition-all duration-300 shadow-[0_10px_25px_rgba(232,71,10,0.22)] hover:shadow-[0_12px_35px_rgba(232,71,10,0.45)] hover:-translate-y-0.5 mt-8 flex items-center justify-center gap-2"
+                className="w-full py-3 bg-primary hover:bg-primary-hover text-black font-extrabold text-xs uppercase tracking-widest rounded-full transition-all duration-300 shadow-[0_10px_25px_rgba(215,25,32,0.22)] hover:shadow-[0_12px_35px_rgba(215,25,32,0.45)] hover:-translate-y-0.5 mt-8 flex items-center justify-center gap-2"
               >
                 <span>{pageData.primaryCta}</span>
                 <ArrowRight className="w-4 h-4" />

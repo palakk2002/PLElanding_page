@@ -3,9 +3,10 @@ import { Phone } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import ScrollToTop from '../common/ScrollToTop';
 import { useTheme } from '../../context/ThemeContext';
-import lightLogo from '../../assets/logo_Square.jpg__1_-removebg-preview.png';
-import darkLogo from '../../assets/DarkthemeLogo.png';
 import WhatsAppWidget from '../common/WhatsAppWidget';
+
+const lightLogo = '/PLE-logo-light-transparent.png';
+const darkLogo = '/PLE-logo-dark-transparent.png';
 
 export default function LandingPageLayout() {
   const { theme } = useTheme();

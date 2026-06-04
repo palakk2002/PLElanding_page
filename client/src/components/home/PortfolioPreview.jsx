@@ -142,7 +142,7 @@ export default function PortfolioPreview() {
                                 src={project.image}
                                 alt={`${project.title} Screenshot`}
                                 className="w-full h-full object-cover pointer-events-none"
-                                placeholderColor="rgba(255,107,0,0.03)"
+                                placeholderColor="rgba(215,25,32,0.03)"
                               />
                             )}
                             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent pointer-events-none" />
@@ -243,7 +243,7 @@ export default function PortfolioPreview() {
         >
           <Link
             to="/portfolio"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-primary hover:bg-primary/90 text-black font-black text-xs uppercase tracking-widest rounded-xl transition-all shadow-[0_0_20px_rgba(255,107,0,0.2)] hover:shadow-[0_0_30px_rgba(255,107,0,0.4)]"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-primary hover:bg-primary/90 text-black font-black text-xs uppercase tracking-widest rounded-xl transition-all shadow-[0_0_20px_rgba(215,25,32,0.2)] hover:shadow-[0_0_30px_rgba(215,25,32,0.4)]"
           >
             View All Collections
           </Link>

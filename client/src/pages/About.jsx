@@ -179,7 +179,7 @@ export default function About() {
             >
               <Link
                 to="/get-quote"
-                className="relative inline-flex items-center gap-2 px-8 py-4 bg-primary hover:bg-primary-hover text-black font-extrabold text-xs uppercase tracking-wider rounded-lg transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,107,0,0.45)] group cursor-pointer overflow-hidden"
+                className="relative inline-flex items-center gap-2 px-8 py-4 bg-primary hover:bg-primary-hover text-black font-extrabold text-xs uppercase tracking-wider rounded-lg transition-all duration-300 hover:shadow-[0_0_25px_rgba(215,25,32,0.45)] group cursor-pointer overflow-hidden"
               >
                 {/* Gloss slide overlay on hover */}
                 <span className="absolute inset-0 bg-white/10 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-out" />
@@ -210,7 +210,7 @@ export default function About() {
               {/* Large Circle image mask with robust orange stroke */}
               <motion.div 
                 variants={imageReveal}
-                className="relative w-full h-full rounded-full border-[6px] sm:border-[10px] border-primary overflow-hidden shadow-[0_20px_50px_rgba(255,107,0,0.25)] group transition-transform duration-500 hover:scale-[1.02] z-10"
+                className="relative w-full h-full rounded-full border-[6px] sm:border-[10px] border-primary overflow-hidden shadow-[0_20px_50px_rgba(215,25,32,0.25)] group transition-transform duration-500 hover:scale-[1.02] z-10"
               >
                 <img
                   src={teamImg}
@@ -318,13 +318,13 @@ export default function About() {
                 <linearGradient id="waveLineGrad" x1="0%" y1="50%" x2="100%" y2="50%">
                   <stop offset="0%" stopColor="#3B82F6" stopOpacity="0.8" />
                   <stop offset="60%" stopColor="#60A5FA" stopOpacity="0.4" />
-                  <stop offset="100%" stopColor="#FF6B00" stopOpacity="0.6" />
+                  <stop offset="100%" stopColor="#D71920" stopOpacity="0.6" />
                 </linearGradient>
 
                 {/* Soft Gradient Mask for Halftone */}
                 <linearGradient id="halftoneFade" x1="0%" y1="0%" x2="100%" y2="100%">
                   <stop offset="0%" stopColor="#3B82F6" stopOpacity="0.45" />
-                  <stop offset="100%" stopColor="#FF6B00" stopOpacity="0.1" />
+                  <stop offset="100%" stopColor="#D71920" stopOpacity="0.1" />
                 </linearGradient>
               </defs>
 
@@ -418,7 +418,7 @@ export default function About() {
                     scale: { type: "spring", stiffness: 100 }
                   }}
                   viewport={{ once: true }}
-                  className="glass-panel bg-app-card backdrop-blur-xl border border-app-border rounded-2xl p-6 shadow-[0_20px_50px_rgba(255,107,0,0.22)] flex flex-col items-center justify-center text-center w-36 h-36 orange-glow-sm hover:border-primary/50 transition-colors duration-300"
+                  className="glass-panel bg-app-card backdrop-blur-xl border border-app-border rounded-2xl p-6 shadow-[0_20px_50px_rgba(215,25,32,0.22)] flex flex-col items-center justify-center text-center w-36 h-36 orange-glow-sm hover:border-primary/50 transition-colors duration-300"
                 >
                   <div className="text-3xl md:text-4xl font-black text-primary font-heading leading-none">5+</div>
                   <div className="text-[9px] font-extrabold text-app-text uppercase tracking-widest mt-1">Years Of</div>
@@ -569,7 +569,7 @@ export default function About() {
             whileInView="visible"
             viewport={{ once: true, margin: '-100px' }}
             variants={scrollFadeLeft}
-            className="glass-panel rounded-3xl p-6 md:p-10 text-left bg-app-card border border-app-border relative overflow-visible group hover:border-primary/30 transition-all duration-300 hover:shadow-[0_15px_30px_rgba(255,107,0,0.06)]"
+            className="glass-panel rounded-3xl p-6 md:p-10 text-left bg-app-card border border-app-border relative overflow-visible group hover:border-primary/30 transition-all duration-300 hover:shadow-[0_15px_30px_rgba(215,25,32,0.06)]"
           >
             {/* Masked internal container for blur circle */}
             <div className="absolute inset-0 overflow-hidden rounded-3xl pointer-events-none">
@@ -597,7 +597,7 @@ export default function About() {
             whileInView="visible"
             viewport={{ once: true, margin: '-100px' }}
             variants={scrollFadeRight}
-            className="glass-panel rounded-3xl p-6 md:p-10 text-left bg-app-card border border-app-border relative overflow-visible group hover:border-primary/30 transition-all duration-300 hover:shadow-[0_15px_30px_rgba(255,107,0,0.06)]"
+            className="glass-panel rounded-3xl p-6 md:p-10 text-left bg-app-card border border-app-border relative overflow-visible group hover:border-primary/30 transition-all duration-300 hover:shadow-[0_15px_30px_rgba(215,25,32,0.06)]"
           >
             {/* Masked internal container for blur circle */}
             <div className="absolute inset-0 overflow-hidden rounded-3xl pointer-events-none">

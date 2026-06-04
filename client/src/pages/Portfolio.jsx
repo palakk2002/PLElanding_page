@@ -346,7 +346,7 @@ export default function Portfolio() {
                             src={project.image}
                             alt={`${project.title} Screenshot`}
                             className="w-full h-full object-cover pointer-events-none"
-                            placeholderColor="rgba(255,107,0,0.03)"
+                            placeholderColor="rgba(215,25,32,0.03)"
                           />
                           {/* Rich bottom gradient blending */}
                           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent pointer-events-none" />
@@ -585,7 +585,7 @@ export default function Portfolio() {
               <div className="shrink-0 flex justify-center lg:justify-end">
                 <Link
                   to="/get-quote"
-                  className="relative inline-flex items-center gap-2 px-7 py-3.5 bg-primary hover:bg-primary-hover text-black font-extrabold text-[10px] uppercase tracking-wider rounded-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,107,0,0.4)] group cursor-pointer overflow-hidden"
+                  className="relative inline-flex items-center gap-2 px-7 py-3.5 bg-primary hover:bg-primary-hover text-black font-extrabold text-[10px] uppercase tracking-wider rounded-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(215,25,32,0.4)] group cursor-pointer overflow-hidden"
                 >
                   <span className="absolute inset-0 bg-white/10 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-out" />
                   <span>Start a Project</span>

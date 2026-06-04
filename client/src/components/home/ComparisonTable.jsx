@@ -141,7 +141,7 @@ export default function ComparisonTable() {
                     {/* Marketplace Column - Highlighted */}
                     <td className="px-4 py-2.5 text-[11px] font-black text-primary bg-primary/5 border-l border-r border-primary/20 group-hover:bg-primary/10 transition-colors text-center">
                       <div className="flex items-center justify-center gap-2">
-                        <span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0 shadow-[0_0_8px_rgba(255,107,0,0.8)]" />
+                        <span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0 shadow-[0_0_8px_rgba(215,25,32,0.8)]" />
                         <span>{row.vedhunt}</span>
                       </div>
                     </td>

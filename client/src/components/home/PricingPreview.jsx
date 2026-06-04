@@ -214,7 +214,7 @@ export default function PricingPreview() {
                 onMouseLeave={() => setHoveredIndex(null)}
                 className={`relative rounded-2xl overflow-hidden transition-all duration-500 min-w-[85vw] sm:min-w-0 snap-center ${
                   card.popular 
-                    ? 'border-primary/50 shadow-[0_0_25px_rgba(255,107,0,0.15)] bg-app-card' 
+                    ? 'border-primary/50 shadow-[0_0_25px_rgba(215,25,32,0.15)] bg-app-card' 
                     : 'border-app-border hover:border-primary/50 bg-app-card'
                 } border backdrop-blur-xl group flex flex-col ${
                   index === 2 ? 'sm:col-span-2 lg:col-span-1' : ''
@@ -226,7 +226,7 @@ export default function PricingPreview() {
                 />
 
                 {card.popular && (
-                  <div className="absolute top-0 left-1/2 -translate-x-1/2 bg-primary text-black text-[9px] font-bold uppercase tracking-widest px-3 py-0.5 rounded-b-lg shadow-[0_4px_10px_rgba(255,107,0,0.3)] z-20">
+                  <div className="absolute top-0 left-1/2 -translate-x-1/2 bg-primary text-black text-[9px] font-bold uppercase tracking-widest px-3 py-0.5 rounded-b-lg shadow-[0_4px_10px_rgba(215,25,32,0.3)] z-20">
                     Most Popular
                   </div>
                 )}
@@ -307,7 +307,7 @@ export default function PricingPreview() {
                     to="/pricing"
                     className={`w-full py-2.5 rounded-xl flex items-center justify-center gap-2 text-[11px] font-bold transition-all duration-300 ${
                       card.popular 
-                        ? 'bg-primary text-black hover:bg-app-text hover:text-app-bg shadow-[0_0_15px_rgba(255,107,0,0.3)]' 
+                        ? 'bg-primary text-black hover:bg-app-text hover:text-app-bg shadow-[0_0_15px_rgba(215,25,32,0.3)]' 
                         : 'bg-app-bg text-app-text hover:border-primary border border-app-border'
                     }`}
                   >

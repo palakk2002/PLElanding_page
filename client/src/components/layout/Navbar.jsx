@@ -6,8 +6,8 @@ import { NAV_LINKS as DEFAULT_NAV_LINKS, SERVICES } from '../../constants';
 import { contentService } from '../../services/contentService';
 import ThemeToggle from '../common/ThemeToggle';
 import { useTheme } from '../../context/ThemeContext';
-import lightLogo from '../../assets/logo_Square.jpg__1_-removebg-preview.png';
-import darkLogo from '../../assets/DarkthemeLogo.png';
+const lightLogo = '/PLE-logo-light-transparent.png';
+const darkLogo = '/PLE-logo-dark-transparent.png';
 
 export default function Navbar() {
   const { theme } = useTheme();
@@ -94,7 +94,7 @@ export default function Navbar() {
               <img
                 src={theme === 'dark' || (location.pathname === '/' && !isScrolled) ? darkLogo : lightLogo}
                 alt="PLE Logo"
-                className="h-16 sm:h-20 md:h-24 w-auto object-contain transition-transform duration-300 group-hover:scale-105 my-[-10px] sm:my-[-16px] md:my-[-24px]"
+                className="h-8 sm:h-9 md:h-10 w-auto max-w-[70px] object-contain transition-transform duration-300 group-hover:scale-105"
               />
             </Link>
           </div>
@@ -136,7 +136,7 @@ export default function Navbar() {
                           {isActive && (
                             <motion.div
                               layoutId="activePill"
-                              className="absolute inset-0 bg-primary rounded-full shadow-[0_0_15px_rgba(255,107,0,0.4)] z-0"
+                              className="absolute inset-0 bg-primary rounded-full shadow-[0_0_15px_rgba(215,25,32,0.4)] z-0"
                               transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
                             />
                           )}
@@ -192,7 +192,7 @@ export default function Navbar() {
             <ThemeToggle />
             <Link
               to="/get-quote"
-              className="flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary text-black text-xs font-black hover:bg-primary-hover transition-all duration-300 group shadow-[0_0_20px_rgba(255,107,0,0.2)] hover:shadow-[0_0_25px_rgba(255,107,0,0.4)]"
+              className="flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary text-black text-xs font-black hover:bg-primary-hover transition-all duration-300 group shadow-[0_0_20px_rgba(215,25,32,0.2)] hover:shadow-[0_0_25px_rgba(215,25,32,0.4)]"
             >
               <span>Start Shopping</span>
               <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-1" />

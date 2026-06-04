@@ -199,7 +199,7 @@ export default function Services() {
             <div className="pt-2">
               <Link
                 to="/get-quote"
-                className="px-6 py-2.5 bg-primary hover:bg-primary-hover text-black font-bold text-xs uppercase tracking-wider rounded-xl hover:shadow-[0_0_30px_rgba(255,107,0,0.5)] transition-all duration-300 inline-block cursor-pointer transform hover:-translate-y-1"
+                className="px-6 py-2.5 bg-primary hover:bg-primary-hover text-black font-bold text-xs uppercase tracking-wider rounded-xl hover:shadow-[0_0_30px_rgba(215,25,32,0.5)] transition-all duration-300 inline-block cursor-pointer transform hover:-translate-y-1"
               >
                 Connect with our Engineers
               </Link>

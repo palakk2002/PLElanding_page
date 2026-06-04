@@ -335,7 +335,7 @@ export default function FAQ() {
                   <div className="flex justify-end">
                     <button 
                       type="submit"
-                      className="px-8 py-3.5 bg-primary text-black font-bold rounded-xl hover:bg-primary-hover hover:shadow-[0_0_20px_rgba(255,107,0,0.4)] transition-all duration-300"
+                      className="px-8 py-3.5 bg-primary text-black font-bold rounded-xl hover:bg-primary-hover hover:shadow-[0_0_20px_rgba(215,25,32,0.4)] transition-all duration-300"
                     >
                       Send Message
                     </button>

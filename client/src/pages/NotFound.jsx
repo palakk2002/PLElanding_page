@@ -14,7 +14,7 @@ export default function NotFound() {
         <motion.div
           animate={{ rotate: [0, 10, -10, 0], y: [0, -10, 0] }}
           transition={{ repeat: Infinity, duration: 4, ease: 'easeInOut' }}
-          className="w-20 h-20 bg-primary/10 border border-primary/20 text-primary rounded-full flex items-center justify-center mx-auto shadow-[0_0_30px_rgba(255,107,0,0.15)]"
+          className="w-20 h-20 bg-primary/10 border border-primary/20 text-primary rounded-full flex items-center justify-center mx-auto shadow-[0_0_30px_rgba(215,25,32,0.15)]"
         >
           <HelpCircle className="w-10 h-10 animate-pulse" />
         </motion.div>
@@ -48,7 +48,7 @@ export default function NotFound() {
         >
           <Link
             to="/"
-            className="px-6 py-3 bg-primary hover:bg-primary-hover text-black font-bold rounded-lg flex items-center justify-center gap-2 transition-all duration-300 shadow-[0_4px_20px_rgba(255,107,0,0.25)] hover:shadow-[0_4px_30px_rgba(255,107,0,0.4)] hover:-translate-y-0.5 group cursor-pointer"
+            className="px-6 py-3 bg-primary hover:bg-primary-hover text-black font-bold rounded-lg flex items-center justify-center gap-2 transition-all duration-300 shadow-[0_4px_20px_rgba(215,25,32,0.25)] hover:shadow-[0_4px_30px_rgba(215,25,32,0.4)] hover:-translate-y-0.5 group cursor-pointer"
           >
             <Home className="w-4 h-4" />
             <span>Back to Home</span>

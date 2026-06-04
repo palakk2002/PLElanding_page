@@ -135,7 +135,7 @@ const Blog = () => {
                 placeholder="Enter your email"
                 className="w-full bg-app-bg border border-app-border rounded-lg py-3.5 px-6 text-app-text focus:outline-none focus:border-primary transition-all duration-300"
               />
-              <button className="w-full md:w-auto bg-primary text-black font-black px-8 py-3.5 rounded-lg hover:bg-primary-hover hover:shadow-[0_0_25px_rgba(255,107,0,0.45)] transition-all duration-300 whitespace-nowrap uppercase text-[10px] tracking-widest">
+              <button className="w-full md:w-auto bg-primary text-black font-black px-8 py-3.5 rounded-lg hover:bg-primary-hover hover:shadow-[0_0_25px_rgba(215,25,32,0.45)] transition-all duration-300 whitespace-nowrap uppercase text-[10px] tracking-widest">
                 Subscribe
               </button>
             </div>

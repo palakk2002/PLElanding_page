@@ -71,7 +71,7 @@ const SplineSkeleton = () => {
       <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-primary/3 to-transparent opacity-20 pointer-events-none" />
       <div className="absolute top-0 left-0 w-[200%] h-[200%] bg-gradient-to-br from-transparent via-primary/5 to-transparent animate-shimmer-sweep pointer-events-none" />
 
-      <div className="w-40 h-40 rounded-full border border-primary/25 bg-gradient-to-tr from-primary/12 via-primary/5 to-transparent flex items-center justify-center relative shadow-[0_0_50px_rgba(255,107,0,0.18)] animate-pulse">
+      <div className="w-40 h-40 rounded-full border border-primary/25 bg-gradient-to-tr from-primary/12 via-primary/5 to-transparent flex items-center justify-center relative shadow-[0_0_50px_rgba(215,25,32,0.18)] animate-pulse">
         <div className="w-32 h-32 rounded-full bg-gradient-to-br from-primary/15 via-transparent to-transparent flex items-center justify-center relative">
           <span className="text-primary text-[9px] font-black uppercase tracking-[0.22em] animate-pulse">
             LOADING 3D

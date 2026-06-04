@@ -481,7 +481,7 @@ export default function Products() {
             {/* Float cart indicator */}
             <button
               onClick={() => setIsCartOpen(true)}
-              className="relative px-5 py-2.5 bg-primary hover:bg-primary-hover text-black rounded-xl font-extrabold text-xs uppercase tracking-wider flex items-center gap-2 shadow-lg hover:shadow-[0_0_20px_rgba(255,107,0,0.35)] transition-all cursor-pointer"
+              className="relative px-5 py-2.5 bg-primary hover:bg-primary-hover text-black rounded-xl font-extrabold text-xs uppercase tracking-wider flex items-center gap-2 shadow-lg hover:shadow-[0_0_20px_rgba(215,25,32,0.35)] transition-all cursor-pointer"
             >
               <ShoppingCart className="w-4 h-4" />
               <span>Cart</span>
@@ -506,7 +506,7 @@ export default function Products() {
                 onClick={() => setSelectedCategory(cat.name)}
                 className={`flex items-center gap-2 px-5 py-3 rounded-full text-xs font-bold shrink-0 transition-all border cursor-pointer ${
                   isActive 
-                    ? 'bg-primary border-primary text-black font-black shadow-[0_0_15px_rgba(255,107,0,0.25)] hover:scale-105' 
+                    ? 'bg-primary border-primary text-black font-black shadow-[0_0_15px_rgba(215,25,32,0.25)] hover:scale-105' 
                     : 'bg-app-card border-app-border text-app-text-muted hover:border-primary/30 hover:text-white'
                 }`}
               >
@@ -789,7 +789,7 @@ export default function Products() {
                   <button
                     onClick={() => { addToast('Order Placed Successfully! (Simulation)', 'success'); setCart([]); setIsCartOpen(false); }}
                     disabled={cart.length === 0}
-                    className="py-3 bg-primary hover:bg-primary-hover text-black rounded-xl text-[10px] font-black uppercase tracking-wider shadow-lg hover:shadow-[0_0_20px_rgba(255,107,0,0.3)] transition-all disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer"
+                    className="py-3 bg-primary hover:bg-primary-hover text-black rounded-xl text-[10px] font-black uppercase tracking-wider shadow-lg hover:shadow-[0_0_20px_rgba(215,25,32,0.3)] transition-all disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer"
                   >
                     Checkout
                   </button>
@@ -899,7 +899,7 @@ export default function Products() {
                 <div className="flex items-center gap-3 pt-6 border-t border-app-border/40 mt-6 md:mt-0">
                   <button
                     onClick={() => { addToCart(selectedProduct); setSelectedProduct(null); }}
-                    className="flex-grow py-3.5 bg-primary hover:bg-primary-hover text-black font-black text-xs uppercase tracking-wider rounded-xl flex items-center justify-center gap-2 shadow-lg hover:shadow-[0_0_20px_rgba(255,107,0,0.35)] transition-all cursor-pointer"
+                    className="flex-grow py-3.5 bg-primary hover:bg-primary-hover text-black font-black text-xs uppercase tracking-wider rounded-xl flex items-center justify-center gap-2 shadow-lg hover:shadow-[0_0_20px_rgba(215,25,32,0.35)] transition-all cursor-pointer"
                   >
                     <ShoppingCart className="w-4 h-4" />
                     <span>Add to Cart</span>

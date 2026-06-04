@@ -67,7 +67,7 @@ export default function PresenceMap() {
               <div className="relative">
                 {/* Ping Animation */}
                 <span className="absolute inline-flex h-full w-full rounded-full bg-primary opacity-75 animate-ping" />
-                <div className="relative bg-app-bg p-2 rounded-full border border-primary/30 shadow-[0_0_15px_rgba(255,107,0,0.5)]">
+                <div className="relative bg-app-bg p-2 rounded-full border border-primary/30 shadow-[0_0_15px_rgba(215,25,32,0.5)]">
                   <MapPin className="w-6 h-6 text-primary" />
                 </div>
               </div>

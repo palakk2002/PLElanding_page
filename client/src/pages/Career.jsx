@@ -155,7 +155,7 @@ export default function Career() {
                     window.scrollTo({top: y, behavior: 'smooth'});
                   }
                 }}
-                className="px-6 py-2.5 bg-primary hover:bg-primary-hover text-black font-bold text-xs uppercase tracking-wider rounded-lg shadow-[0_0_15px_rgba(255,107,0,0.3)] hover:-translate-y-0.5 transition-all cursor-pointer"
+                className="px-6 py-2.5 bg-primary hover:bg-primary-hover text-black font-bold text-xs uppercase tracking-wider rounded-lg shadow-[0_0_15px_rgba(215,25,32,0.3)] hover:-translate-y-0.5 transition-all cursor-pointer"
               >
                 View Open Positions
               </button>
@@ -225,7 +225,7 @@ export default function Career() {
                   }}
                   className={`p-6 rounded-2xl border transition-all duration-300 cursor-pointer relative overflow-hidden group flex flex-col justify-between ${
                     selectedJob === job.id
-                      ? 'bg-white dark:bg-app-card border-primary shadow-[0_10px_30px_rgba(232,71,10,0.15)]'
+                      ? 'bg-white dark:bg-app-card border-primary shadow-[0_10px_30px_rgba(215,25,32,0.15)]'
                       : 'bg-white dark:bg-app-card border-slate-100 dark:border-app-border hover:border-primary/30 shadow-sm dark:shadow-none hover:shadow-lg dark:hover:shadow-none'
                   }`}
                 >
@@ -537,7 +537,7 @@ export default function Career() {
                     {/* Action Button */}
                     <button
                       type="submit"
-                      className="w-full py-3 bg-primary hover:bg-primary-hover text-black font-extrabold text-xs uppercase tracking-widest rounded-full transition-all duration-300 shadow-[0_10px_25px_rgba(232,71,10,0.22)] hover:shadow-[0_12px_35px_rgba(232,71,10,0.45)] hover:-translate-y-0.5 flex items-center justify-center gap-2 cursor-pointer"
+                      className="w-full py-3 bg-primary hover:bg-primary-hover text-black font-extrabold text-xs uppercase tracking-widest rounded-full transition-all duration-300 shadow-[0_10px_25px_rgba(215,25,32,0.22)] hover:shadow-[0_12px_35px_rgba(215,25,32,0.45)] hover:-translate-y-0.5 flex items-center justify-center gap-2 cursor-pointer"
                     >
                       <span>Submit Application</span>
                       <ArrowRight className="w-4 h-4" />
@@ -552,7 +552,7 @@ export default function Career() {
                     animate={{ opacity: 1, scale: 1 }}
                     className="text-center space-y-6 py-8"
                   >
-                    <div className="w-16 h-16 rounded-full bg-primary/10 border border-primary/20 text-primary flex items-center justify-center mx-auto shadow-[0_0_35px_rgba(232,71,10,0.25)]">
+                    <div className="w-16 h-16 rounded-full bg-primary/10 border border-primary/20 text-primary flex items-center justify-center mx-auto shadow-[0_0_35px_rgba(215,25,32,0.25)]">
                       <CheckCircle2 className="w-9 h-9 animate-bounce" />
                     </div>
                     

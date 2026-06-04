@@ -248,7 +248,7 @@ export default function GetQuote() {
       {[1, 2, 3, 4].map((s) => (
         <div key={s} className="flex items-center">
           <div className={`w-6 h-6 rounded-full flex items-center justify-center text-[10px] font-medium transition-colors duration-300 ${
-            step === s ? 'bg-primary text-black shadow-[0_0_15px_rgba(255,107,0,0.4)]' : 
+            step === s ? 'bg-primary text-black shadow-[0_0_15px_rgba(215,25,32,0.4)]' : 
             step > s ? 'bg-primary/20 text-primary border border-primary/30' : 
             'bg-app-border/20 text-app-text-muted border border-app-border/50'
           }`}>
@@ -577,7 +577,7 @@ export default function GetQuote() {
                                 }}
                                 className={`p-4 rounded-xl border-2 cursor-pointer transition-all duration-300 flex items-start gap-4 ${
                                   isSelected 
-                                    ? 'border-primary bg-primary/10 shadow-[0_4px_20px_rgba(255,107,0,0.15)]' 
+                                    ? 'border-primary bg-primary/10 shadow-[0_4px_20px_rgba(215,25,32,0.15)]' 
                                     : 'border-app-border/50 bg-app-bg/50 hover:border-primary/50'
                                 }`}
                               >
@@ -676,7 +676,7 @@ export default function GetQuote() {
                         <button
                           type="button"
                           onClick={nextStep}
-                          className="relative inline-flex items-center justify-between pl-6 pr-1.5 py-1.5 bg-primary hover:bg-primary-hover text-black font-extrabold text-xs uppercase tracking-widest rounded-full transition-all duration-300 group shadow-[0_10px_25px_rgba(255,107,0,0.22)] hover:shadow-[0_12px_35px_rgba(255,107,0,0.45)] hover:-translate-y-0.5 w-32"
+                          className="relative inline-flex items-center justify-between pl-6 pr-1.5 py-1.5 bg-primary hover:bg-primary-hover text-black font-extrabold text-xs uppercase tracking-widest rounded-full transition-all duration-300 group shadow-[0_10px_25px_rgba(215,25,32,0.22)] hover:shadow-[0_12px_35px_rgba(215,25,32,0.45)] hover:-translate-y-0.5 w-32"
                         >
                           <span>Next</span>
                           <div className="w-7 h-7 rounded-full bg-black/10 flex items-center justify-center text-black group-hover:bg-black/20 transition-all duration-300">
@@ -686,7 +686,7 @@ export default function GetQuote() {
                       ) : (
                         <button
                           type="submit"
-                          className="relative inline-flex items-center justify-between pl-6 pr-1.5 py-1.5 bg-primary hover:bg-primary-hover text-black font-extrabold text-xs uppercase tracking-widest rounded-full transition-all duration-300 group shadow-[0_10px_25px_rgba(255,107,0,0.22)] hover:shadow-[0_12px_35px_rgba(255,107,0,0.45)] hover:-translate-y-0.5 w-36"
+                          className="relative inline-flex items-center justify-between pl-6 pr-1.5 py-1.5 bg-primary hover:bg-primary-hover text-black font-extrabold text-xs uppercase tracking-widest rounded-full transition-all duration-300 group shadow-[0_10px_25px_rgba(215,25,32,0.22)] hover:shadow-[0_12px_35px_rgba(215,25,32,0.45)] hover:-translate-y-0.5 w-36"
                         >
                           <span>Submit</span>
                           <div className="w-7 h-7 rounded-full bg-black/10 flex items-center justify-center text-black group-hover:bg-black/20 transition-all duration-300">
@@ -706,7 +706,7 @@ export default function GetQuote() {
                   exit={{ opacity: 0, scale: 0.95 }}
                   className="glass-panel rounded-3xl p-8 md:p-10 text-center space-y-6 flex flex-col items-center border border-primary/20 bg-app-card/85 shadow-2xl relative overflow-hidden"
                 >
-                  <div className="w-16 h-16 rounded-full bg-primary/10 border border-primary/20 text-primary flex items-center justify-center shadow-[0_0_35px_rgba(255,107,0,0.25)]">
+                  <div className="w-16 h-16 rounded-full bg-primary/10 border border-primary/20 text-primary flex items-center justify-center shadow-[0_0_35px_rgba(215,25,32,0.25)]">
                     <CheckCircle2 className="w-9 h-9 animate-bounce" />
                   </div>
                   
@@ -741,13 +741,13 @@ export default function GetQuote() {
             >
               <defs>
                 <linearGradient id="organicLiquidGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stopColor="#FF6B00" stopOpacity="0.9" />
+                  <stop offset="0%" stopColor="#D71920" stopOpacity="0.9" />
                   <stop offset="65%" stopColor="#EA580C" stopOpacity="0.75" />
                   <stop offset="100%" stopColor="#9333EA" stopOpacity="0.9" />
                 </linearGradient>
                 <linearGradient id="organicLiquidBack" x1="100%" y1="0%" x2="0%" y2="100%">
                   <stop offset="0%" stopColor="#3B82F6" stopOpacity="0.3" />
-                  <stop offset="100%" stopColor="#FF6B00" stopOpacity="0.1" />
+                  <stop offset="100%" stopColor="#D71920" stopOpacity="0.1" />
                 </linearGradient>
               </defs>
 

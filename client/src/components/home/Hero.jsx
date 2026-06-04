@@ -182,7 +182,7 @@ export default function Hero() {
           >
             <Link
               to={heroData?.primaryButtonLink || "/get-quote"}
-              className="px-6 py-3.5 sm:px-10 sm:py-4 bg-primary hover:bg-primary-hover text-black font-black text-sm rounded-full flex items-center justify-center gap-2 sm:gap-3 transition-all duration-300 hover:scale-105 group shadow-[0_0_30px_rgba(255,107,0,0.3)] w-full sm:w-auto text-center"
+              className="px-6 py-3.5 sm:px-10 sm:py-4 bg-primary hover:bg-primary-hover text-black font-black text-sm rounded-full flex items-center justify-center gap-2 sm:gap-3 transition-all duration-300 hover:scale-105 group shadow-[0_0_30px_rgba(215,25,32,0.3)] w-full sm:w-auto text-center"
             >
                               <span>{heroData?.primaryButtonText || "Shop Now"}</span>
               <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 transition-transform duration-300 group-hover:translate-x-1" />
@@ -190,7 +190,7 @@ export default function Hero() {
 
             <Link
               to={heroData?.secondaryButtonLink || "/services"}
-              className="px-6 py-3.5 sm:px-10 sm:py-4 bg-white/5 backdrop-blur-md border border-white/10 hover:bg-primary hover:border-primary hover:text-black text-white font-bold text-sm rounded-full flex items-center justify-center gap-3 transition-all duration-300 hover:scale-105 w-full sm:w-auto text-center shadow-lg hover:shadow-[0_0_30px_rgba(255,107,0,0.3)]"
+              className="px-6 py-3.5 sm:px-10 sm:py-4 bg-white/5 backdrop-blur-md border border-white/10 hover:bg-primary hover:border-primary hover:text-black text-white font-bold text-sm rounded-full flex items-center justify-center gap-3 transition-all duration-300 hover:scale-105 w-full sm:w-auto text-center shadow-lg hover:shadow-[0_0_30px_rgba(215,25,32,0.3)]"
             >
                               <span>{heroData?.secondaryButtonText || "Explore Products"}</span>
             </Link>
