@@ -2,8 +2,8 @@ import { Link } from 'react-router-dom';
 import { Phone, Mail, ArrowRight, MapPin, ArrowUpRight } from 'lucide-react';
 import { CONTACT_INFO, SERVICES } from '../../constants';
 import { useTheme } from '../../context/ThemeContext';
-import lightLogo from '../../assets/logo_Square.jpg__1_-removebg-preview.png';
-import darkLogo from '../../assets/DarkthemeLogo.png';
+const lightLogo = '/PLE-logo-light-transparent.png';
+const darkLogo = '/PLE-logo-dark-transparent.png';
 
 // Custom high-fidelity inline SVG social icons replacing removed Lucide brand icons
 const FacebookIcon = (props) => (

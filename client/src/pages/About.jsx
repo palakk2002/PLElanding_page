@@ -2,10 +2,9 @@ import { motion } from 'framer-motion';
 import { Check, ArrowRight, Code, Share2, Megaphone, Palette, Calculator, BarChart3, Cpu, Play, Tv } from 'lucide-react';
 import { EncryptedText } from '@/components/ui/encrypted-text';
 
-// Import newly generated transparent background team illustration
-const teamImg = '/third.jpg';
-const compImg1 = '/phone.jpg';
-const compImg2 = '/ladki.jpg';
+const teamImg = '/sho5.jpg';
+const compImg1 = '/sho1.jpg';
+const compImg2 = '/sho.jpg';
 import { ShieldCheck, Award as AwardIcon } from 'lucide-react';
 
 export default function About() {
