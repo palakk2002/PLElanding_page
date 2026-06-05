@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Check, ArrowRight, Code, Share2, Megaphone, Palette, Calculator, BarChart3, Cpu, Play, Tv } from 'lucide-react';
 import { EncryptedText } from '@/components/ui/encrypted-text';
@@ -177,15 +176,15 @@ export default function About() {
               variants={scrollFadeUp}
               className="pt-6"
             >
-              <Link
-                to="/get-quote"
+              <a
+                href="https://ple-seven.vercel.app/register"
                 className="relative inline-flex items-center gap-2 px-8 py-4 bg-primary hover:bg-primary-hover text-black font-extrabold text-xs uppercase tracking-wider rounded-lg transition-all duration-300 hover:shadow-[0_0_25px_rgba(215,25,32,0.45)] group cursor-pointer overflow-hidden"
               >
                 {/* Gloss slide overlay on hover */}
                 <span className="absolute inset-0 bg-white/10 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-out" />
                 <span>Start Shopping</span>
                 <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1.5" />
-              </Link>
+              </a>
             </motion.div>
 
           </motion.div>

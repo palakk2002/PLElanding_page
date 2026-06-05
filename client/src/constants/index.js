@@ -35,7 +35,6 @@ export const CONTACT_INFO = {
 export const NAV_LINKS = [
   { label: 'Home', path: '/' },
   { label: 'About', path: '/about' },
-  { label: 'Products', path: '/products' },
   { label: 'Portfolio', path: '/portfolio' }
 ];
 

@@ -90,7 +90,7 @@ const MOCK_PORTFOLIO = [
     tags: ['Next.js', 'React', 'Node.js', 'Tailwind CSS', 'MongoDB'],
     statLabel: 'Active Sellers',
     statValue: '12,000+',
-    clientUrl: '/products'
+    clientUrl: 'https://ple-seven.vercel.app/register'
   },
   {
     id: 'port-2',
@@ -129,7 +129,7 @@ const MOCK_PORTFOLIO = [
     tags: ['Next.js', 'Headless Commerce', 'Stripe API', 'GraphQL', 'Vercel'],
     statLabel: 'Page Speed',
     statValue: '98/100',
-    clientUrl: '/products'
+    clientUrl: 'https://ple-seven.vercel.app/register'
   }
 ];
 

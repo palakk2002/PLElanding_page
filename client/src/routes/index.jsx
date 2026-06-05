@@ -6,7 +6,6 @@ import LandingPageLayout from '../components/layout/LandingPageLayout';
 const Home = lazy(() => import('../pages/Home'));
 const About = lazy(() => import('../pages/About'));
 const Services = lazy(() => import('../pages/Services'));
-const Products = lazy(() => import('../pages/Products'));
 const Portfolio = lazy(() => import('../pages/Portfolio'));
 const GetQuote = lazy(() => import('../pages/GetQuote'));
 const ServiceDetails = lazy(() => import('../pages/ServiceDetails'));
@@ -65,10 +64,6 @@ export const router = createBrowserRouter([
       {
         path: 'services',
         element: withSuspense(Services)
-      },
-      {
-        path: 'products',
-        element: withSuspense(Products)
       },
       {
         path: 'portfolio',

@@ -2,9 +2,7 @@ import { motion } from 'framer-motion';
 import { MapPin } from 'lucide-react';
 
 const locations = [
-  { name: 'Kolkata', top: '48%', left: '70%', delay: 0 },
-  { name: 'Mumbai', top: '65%', left: '28%', delay: 0.2 },
-  { name: 'Indore', top: '52%', left: '36%', delay: 0.4 },
+  { name: 'Karnataka', top: '72%', left: '41%', delay: 0 },
 ];
 
 export default function PresenceMap() {
@@ -47,9 +45,9 @@ export default function PresenceMap() {
             className="relative w-full h-full flex justify-center items-center opacity-40 dark:opacity-20"
           >
             <img 
-              src="/india.svg" 
+              src="/india.jpg" 
               alt="India Map" 
-              className="w-full h-full object-contain filter invert-0 dark:invert"
+              className="w-full h-full object-contain"
             />
           </motion.div>
 
